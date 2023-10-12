@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C5BD22D2AD7BD3D00B388FA /* StackFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BD22C2AD7BD3D00B388FA /* StackFrameView.swift */; };
 		5C6CF60C2AD62D7500CA0C99 /* DemoProject2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CF60B2AD62D7500CA0C99 /* DemoProject2App.swift */; };
 		5C6CF60E2AD62D7500CA0C99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CF60D2AD62D7500CA0C99 /* ContentView.swift */; };
 		5C6CF6102AD62D7600CA0C99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6CF60F2AD62D7600CA0C99 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C5BD22C2AD7BD3D00B388FA /* StackFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackFrameView.swift; sourceTree = "<group>"; };
 		5C6CF6082AD62D7500CA0C99 /* DemoProject2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProject2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6CF60B2AD62D7500CA0C99 /* DemoProject2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoProject2App.swift; sourceTree = "<group>"; };
 		5C6CF60D2AD62D7500CA0C99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				5C6CF60B2AD62D7500CA0C99 /* DemoProject2App.swift */,
+				5C5BD22C2AD7BD3D00B388FA /* StackFrameView.swift */,
 				5C6CF60D2AD62D7500CA0C99 /* ContentView.swift */,
 				5C6CF6192AD6413D00CA0C99 /* BasicView.swift */,
 				5C6CF60F2AD62D7600CA0C99 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 				5C6CF61A2AD6413D00CA0C99 /* BasicView.swift in Sources */,
 				5C6CF60E2AD62D7500CA0C99 /* ContentView.swift in Sources */,
 				5C6CF60C2AD62D7500CA0C99 /* DemoProject2App.swift in Sources */,
+				5C5BD22D2AD7BD3D00B388FA /* StackFrameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

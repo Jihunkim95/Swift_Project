@@ -16,6 +16,9 @@
 		5C595E962AD50CFC00015539 /* CalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C595E952AD50CFC00015539 /* CalcView.swift */; };
 		5C595E9A2AD5175B00015539 /* DivideOrangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C595E992AD5175A00015539 /* DivideOrangeView.swift */; };
 		5C595E9C2AD51C9F00015539 /* FormatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C595E9B2AD51C9F00015539 /* FormatView.swift */; };
+		5C5BD22F2AD7D88600B388FA /* ios_01-SwiftEx09_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BD22E2AD7D88600B388FA /* ios_01-SwiftEx09_View.swift */; };
+		5C5BD2312AD7D89F00B388FA /* ios_01_SwiftEx10_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BD2302AD7D89F00B388FA /* ios_01_SwiftEx10_View.swift */; };
+		5C5BD2332AD7D8A900B388FA /* ios_01_SwiftEx11_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BD2322AD7D8A900B388FA /* ios_01_SwiftEx11_View.swift */; };
 		5C6CF61C2AD65DF200CA0C99 /* ios_01-SwiftEx06_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CF61B2AD65DF200CA0C99 /* ios_01-SwiftEx06_View.swift */; };
 		5C6CF61E2AD65E1200CA0C99 /* ios_01-SwiftEx07_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CF61D2AD65E1200CA0C99 /* ios_01-SwiftEx07_View.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +34,9 @@
 		5C595E952AD50CFC00015539 /* CalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcView.swift; sourceTree = "<group>"; };
 		5C595E992AD5175A00015539 /* DivideOrangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideOrangeView.swift; sourceTree = "<group>"; };
 		5C595E9B2AD51C9F00015539 /* FormatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatView.swift; sourceTree = "<group>"; };
+		5C5BD22E2AD7D88600B388FA /* ios_01-SwiftEx09_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ios_01-SwiftEx09_View.swift"; sourceTree = "<group>"; };
+		5C5BD2302AD7D89F00B388FA /* ios_01_SwiftEx10_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_01_SwiftEx10_View.swift; sourceTree = "<group>"; };
+		5C5BD2322AD7D8A900B388FA /* ios_01_SwiftEx11_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_01_SwiftEx11_View.swift; sourceTree = "<group>"; };
 		5C6CF61B2AD65DF200CA0C99 /* ios_01-SwiftEx06_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ios_01-SwiftEx06_View.swift"; sourceTree = "<group>"; };
 		5C6CF61D2AD65E1200CA0C99 /* ios_01-SwiftEx07_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ios_01-SwiftEx07_View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +80,9 @@
 				5C52B6212AD55F8F00DB3DCA /* ios_01-SwiftEx05_View.swift */,
 				5C6CF61B2AD65DF200CA0C99 /* ios_01-SwiftEx06_View.swift */,
 				5C6CF61D2AD65E1200CA0C99 /* ios_01-SwiftEx07_View.swift */,
+				5C5BD22E2AD7D88600B388FA /* ios_01-SwiftEx09_View.swift */,
+				5C5BD2302AD7D89F00B388FA /* ios_01_SwiftEx10_View.swift */,
+				5C5BD2322AD7D8A900B388FA /* ios_01_SwiftEx11_View.swift */,
 				5C595E8B2AD4E0BD00015539 /* Assets.xcassets */,
 				5C595E8D2AD4E0BD00015539 /* Preview Content */,
 			);
@@ -160,6 +169,7 @@
 			files = (
 				5C6CF61C2AD65DF200CA0C99 /* ios_01-SwiftEx06_View.swift in Sources */,
 				5C52B6222AD55F8F00DB3DCA /* ios_01-SwiftEx05_View.swift in Sources */,
+				5C5BD2312AD7D89F00B388FA /* ios_01_SwiftEx10_View.swift in Sources */,
 				5C595E8A2AD4E0BD00015539 /* ContentView.swift in Sources */,
 				5C595E9A2AD5175B00015539 /* DivideOrangeView.swift in Sources */,
 				5C52B6202AD5489400DB3DCA /* ios_01-SwiftEx04_View.swift in Sources */,
@@ -167,6 +177,8 @@
 				5C595E882AD4E0BD00015539 /* DemoProjectApp.swift in Sources */,
 				5C6CF61E2AD65E1200CA0C99 /* ios_01-SwiftEx07_View.swift in Sources */,
 				5C595E962AD50CFC00015539 /* CalcView.swift in Sources */,
+				5C5BD2332AD7D8A900B388FA /* ios_01_SwiftEx11_View.swift in Sources */,
+				5C5BD22F2AD7D88600B388FA /* ios_01-SwiftEx09_View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
