@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import Combine
+import Observation
 /**
  UI 내의 뷰들은 기본 데이터의 변경에 따른 처리 코드를 작성하지 않아도 뷰가 업데이트된다.
 
@@ -15,90 +17,125 @@ import SwiftUI
  */
 
 struct StateView: View {
-    // Observable 객체를 구독하기 위해 @ObsevedObject 또는 @StateObject 프로퍼티 래퍼를 이용
-    @ObservedObject var demoData: DemoData = DemoData()
-    // @State 프로퍼티 래퍼 이용
     @State private var wifiEnabled = true
+    @State private var bluetoothEnabled = false
+    @State private var airplaneEnabled = false
     @State private var userName = ""
-
-    // 상위 뷰에서 Observable 객체의 인스턴스 초기화
-    let speedsetting = SpeedSetting()
     
+    //Observe 패턴을 이용한 DemoData클래스 인스턴스 구독
+    @StateObject var demoData : DemoData = DemoData()
     var body: some View {
         VStack {
-            //Enviorment 객체를 사용
-            // 하위뷰
-            VStack{
-                SpeedControlView()
-                SpeedDisplayView()
-            }
-            .environmentObject(speedsetting)
             
-            Text("\(demoData.currentUser), you \(demoData.userCount)")
-            // 프로퍼티 이름 앞 '$' : 상태 프로퍼티와 바인딩(연결)
-            Toggle(isOn: $wifiEnabled, label: {
-                Text("Enable Wi-Fi")
-            })
-            TextField("Enter user name", text: $userName)
+            Text("\(demoData.currentUser), you are user number \(demoData.userCount)")
+            
+            Button(action: {demoData.userCount += 1}, label:{Text("버튼")})
 
-            // 상태 프로퍼티에 할당된 값을 참조할 때는 '$' 없이 사용
-            Text( userName )
-//            Image(systemName: wifiEnabled ? "wifi" : "wifi.slash")
+            HStack{
+                //하위뷰가 호출 될때 상태 프로퍼티에 대한 바인딩 전달
+                WifiImageView(wifiEnabled: $wifiEnabled)
+                BluetoothImageView(bluetoothEnabled: $bluetoothEnabled)
+                AirplaneImageView(airplaneEnabled: $airplaneEnabled)
+            }
 
-            // 하위 뷰가 호출될 때 상태 프로퍼티에 대한 바인딩을 전달
-            WifiImageView(wifiEnabled: $wifiEnabled)
+            List{
+                Toggle(isOn: $wifiEnabled){
+                    Text("Wi-fi")
+                }
+                Toggle(isOn: $bluetoothEnabled){
+                    Text("블루투스")
+                }
+                Toggle(isOn: $airplaneEnabled){
+                    Text("비행기 탑승 모드")
+                }
+            }
+
+            //상태 프로퍼티 userName 과 TextField는 바인딩 된상황
+            TextField("Enter User Name", text: $userName)
+            //바인딩된 프로퍼티를 보여준다.
+            Text(userName)
         }
     }
 }
 
-/**
- # State 바인딩
+//struct ContentView_Previews: PreviewProvider{
+//    struct var Previews: some View {
+//        ContentView(demoData: DemoData())
+//    }
+//}
 
- 하위뷰로 분리되어 있는 상황에 동일한 상태 프로퍼티에 대해 접근해야 하는 경우
-
- > @Binding 프로퍼티 래퍼를 이용하여 해결
+/*
+ 하위 뷰로 이미지 관리
  */
-struct WifiImageView: View {
-    @Binding var wifiEnabled: Bool
+struct WifiImageView : View {
+    //@Binding 프로퍼티로 메인뷰 밖에서도 wifiEnabled 변수를관리
+    @Binding var wifiEnabled : Bool
     var body: some View {
         Image(systemName: wifiEnabled ? "wifi" : "wifi.slash")
     }
 }
 
-class DemoData: ObservableObject{
-    // @Published 프로퍼티 래퍼를 이용하여 프로퍼티를 게시
-    @Published var userCount = 0
-    @Published var currentUser = ""
-    
-    init() {
-        // 데이터 초기화 코드
+struct BluetoothImageView : View {
+    //@Binding 프로퍼티로 메인뷰 밖에서도 wifiEnabled 변수를관리
+    @Binding var bluetoothEnabled : Bool
+    var body: some View {
+        Image(bluetoothEnabled ? "bluetooth2" : "").frame(width: 10)
+    }
+}
+struct AirplaneImageView : View {
+    //@Binding 프로퍼티로 메인뷰 밖에서도 wifiEnabled 변수를관리
+    @Binding var airplaneEnabled : Bool
+    var body: some View {
+        Image(systemName: airplaneEnabled ? "airplane" : "")
     }
 }
 
 /*
- # Environment 객체 p.211
- SwiftUI 환경에 저장되어 뷰에서 뷰로 전달할 필요없이 모든 하위 뷰가 접근할 수 있다.
- 
- - @EnvironmentObject 프로퍼티 래퍼를 사용하여 구축
- - 작업을 수행하는 뷰의 상위 뷰에서 Observable 객체의 인스턴스 초기화
- - .en... 수정자를 사용하여 뷰 계층 구조에 인스턴스를 추가
+ Observable 객체
+    State객체는 메인밖에서 @Binding 프로퍼티 래퍼를 사용해서 게시자,구독자를 연결시킨 반면,
+    Observable 객체는 Combine 프레임 워크하나로 객체간에 상호작용을 할 수 있다. (최상단에 선언해둠)
+    구독자는 ObservableObject를 구독하기 위해 @ObservedObject 또는 @StateObject 프로퍼티래퍼를 사용한다.
  */
 
+class DemoData : ObservableObject{
+    @Published var userCount = 0
+    @Published var currentUser = ""
+    
+    init(){
+        //데이터를 초기화하기 위한 코드
+        updateData()
+    }
+    
+    func updateData(){
+        //데이터를 최신 상태로 유지하기 위한 코드가 온다
+    }
+}
+
+/*
+ Enviroment 객체
+ 사용자 인터페이스 밖에 있고, 여러뷰가 접근해야 하는 데이터일 경우에는 Environment객체 사용
+ */
 class SpeedSetting: ObservableObject{
     @Published var speed = 0.0
 }
 
-struct SpeedControlView: View {
+struct SpeedControlView:View {
     @EnvironmentObject var speedsetting: SpeedSetting
-    var body: some View {
-        Slider(value: $speedsetting.speed, in: 0...100)
+    
+    var body: some View{
+        Slider(value: $speedsetting.speed,in:0...100)
     }
+    
 }
 
 struct SpeedDisplayView: View {
-    @EnvironmentObject var speedsetting: SpeedSetting
+    @EnvironmentObject var speedsetting:SpeedSetting
+    
     var body: some View {
         Text("Speed = \(speedsetting.speed)")
     }
 }
-#Preview{StateView()}
+
+#Preview{StateView(demoData: DemoData())}
+
+

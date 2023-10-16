@@ -37,6 +37,10 @@ struct ContentView: View {
                     NavigationLink(destination: ios_01_SwiftEx07_View()){
                         Text("GoTo ios_01_SwiftEx07_View")
                     }.padding()
+                    
+                    NavigationLink(destination: ios_01_Ch22_Ex01View()){
+                        Text("ios_01_Ch22_Ex01View")
+                    }.padding()
                 }
 
             }

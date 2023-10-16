@@ -1,7 +1,8 @@
 //
 //  ContentView.swift
 //  SwiftUIDemo
-//
+//  Ch23.SwiftUI 예제 튜토리얼
+//  Picker, rotationEffect,
 //  Created by 김지훈 on 2023/10/13.
 //
 
@@ -23,12 +24,13 @@ struct ContentView: View {
             }
         }.pickerStyle(.wheel)
          .padding()
+        
         VStack {
             Spacer()
-            Image(systemName: text).font(.largeTitle).fontWeight(.semibold).rotationEffect(.degrees(rotation))
+            
+            Text(text).font(.largeTitle).fontWeight(.semibold).rotationEffect(.degrees(rotation))
                 .animation(.easeInOut(duration: 5),value: rotation)
                 .foregroundColor(colors[colorIndex])
-            
             
 
             Slider(value: $rotation, in: 0 ... 360, step: 0.1)
@@ -44,10 +46,6 @@ struct ContentView: View {
             }
             
             Divider()
-            
-            
-            
-            
             
         }
     }

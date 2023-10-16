@@ -6,13 +6,16 @@
 //
 
 import SwiftUI
-
+import Combine
 struct StackFrameView: View {
     // 동적 HStack/VStack 변환
     @State var myLayout: AnyLayout = AnyLayout(VStackLayout())
+    //Observe 패턴을 이용한 DemoData클래스 인스턴스 구독
+    @StateObject var demoData : DemoData = DemoData()
     var body: some View {
         
         VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/,spacing: 15){
+            Text("\(demoData.currentUser), you are user number \(demoData.userCount)")
             
 //            myLayout {
 //                Image(systemName: "goforward.10")
@@ -84,5 +87,5 @@ struct StackFrameView: View {
 }
 
 #Preview {
-    StackFrameView()
+    StackFrameView(demoData: DemoData())
 }
