@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ios_01_SwiftEx09_View: View {
+struct StackFrame: View {
     @State var input:Int = 0
     @State var result:String = ""
     var body: some View {
@@ -54,5 +54,5 @@ struct ios_01_SwiftEx09_View: View {
 }
 
 #Preview {
-    ios_01_SwiftEx09_View().padding(10)
+    StackFrame().padding(10)
 }

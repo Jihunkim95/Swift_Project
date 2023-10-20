@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ios_01_Ch22_Ex01View: View {
+struct PublisherSubscriberView: View {
     @State private var text: String = "Hello World"
     var body: some View {
         //1.이미지 영역
@@ -33,7 +33,7 @@ struct ios_01_Ch22_Ex01View: View {
                             let telephone = "tel://"
                             let formattedString = telephone + numberString
                             
-                            guard let url = URL(string: formattedString) else {
+                            guard URL(string: formattedString) != nil else {
                                 return
                             }
                         }.modifier(StandardButton())
@@ -67,5 +67,5 @@ struct StandardButton: ViewModifier{
     }
 }
 #Preview {
-    ios_01_Ch22_Ex01View()
+    PublisherSubscriberView()
 }

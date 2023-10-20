@@ -11,35 +11,24 @@ struct ContentView: View {
             VStack {
                 Text("목록")
                 List{
-                    NavigationLink(destination: CalcView()){
-                        Text("GoTo CalcView")
+                    NavigationLink(destination: BasicSwiftUIListView()){
+                        Text("Ch19 기본SwiftUI 프로젝트분석")
                     }.padding()
                     
-                    NavigationLink(destination: DivideOrangeView()){
-                        Text("GoTo DivideOrangeView")
+                    NavigationLink(destination: CreateCustomListView()){
+                        Text("Ch20 커스텀뷰 생성하기")
                     }.padding()
                     
-                    NavigationLink(destination: FormatView()){
-                        Text("GoTo FormatView")
+                    NavigationLink(destination: StackFrameListView()){
+                        Text("Ch21 스택과 프레임")
                     }.padding()
                     
-                    NavigationLink(destination: ios_01_SwiftEx04_View()){
-                        Text("GoTo ios_01_SwiftEx04_View")
+                    NavigationLink(destination: PublisherSubscriberListView()){
+                        Text("Ch22 상태 프로퍼티, Observable, Sate, Evironment객체")
                     }.padding()
                     
-                    NavigationLink(destination: ios_01_SwiftEx05_View()){
-                        Text("GoTo ios_01_SwiftEx05_View")
-                    }.padding()
-                    
-                    NavigationLink(destination: ios_01_SwiftEx06_View()){
-                        Text("GoTo ios_01_SwiftEx06_View")
-                    }.padding()
-                    NavigationLink(destination: ios_01_SwiftEx07_View()){
-                        Text("GoTo ios_01_SwiftEx07_View")
-                    }.padding()
-                    
-                    NavigationLink(destination: ios_01_Ch22_Ex01View()){
-                        Text("ios_01_Ch22_Ex01View")
+                    NavigationLink(destination: ConcurrencyListView()){
+                        Text("Ch24 구조화된 동시성")
                     }.padding()
                 }
 

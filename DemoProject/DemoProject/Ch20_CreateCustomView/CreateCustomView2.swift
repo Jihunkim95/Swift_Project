@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ios_01_SwiftEx06_View: View {
+struct CreateCustomView2: View {
     @State private var input:Int = 0
     
     @State private var hour:Int = 0
@@ -80,5 +80,5 @@ struct TitleTextStyle: ViewModifier {
 
 
 #Preview {
-    ios_01_SwiftEx06_View()
+    CreateCustomView2()
 }

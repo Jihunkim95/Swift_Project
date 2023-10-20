@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ios_01_Ch22_Ex03View: View {
+struct PublisherSubscriberView3: View {
     var body: some View {
         
         GeometryReader { geometry in
@@ -44,5 +44,5 @@ struct ios_01_Ch22_Ex03View: View {
 }
 
 #Preview {
-    ios_01_Ch22_Ex03View()
+    PublisherSubscriberView3()
 }

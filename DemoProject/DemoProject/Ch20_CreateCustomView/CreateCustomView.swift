@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ios_01_SwiftEx07_View: View {
+struct CreateCustomView: View {
     
     @State private var input:Int = 0
     
@@ -50,5 +50,5 @@ struct ios_01_SwiftEx07_View: View {
 }
 
 #Preview {
-    ios_01_SwiftEx07_View()
+    CreateCustomView()
 }

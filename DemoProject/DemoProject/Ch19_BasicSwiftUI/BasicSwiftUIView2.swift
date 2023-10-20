@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ios_01_SwiftEx05_View: View {
+struct BasicSwiftUIView2: View {
     @State private var inputSwift:Int = 0
     @State private var inputIOS:Int = 0
     @State private var inputWeb:Int = 0
@@ -46,5 +46,5 @@ struct ios_01_SwiftEx05_View: View {
 }
 
 #Preview {
-    ios_01_SwiftEx05_View().padding(50)
+    BasicSwiftUIView2().padding(50)
 }

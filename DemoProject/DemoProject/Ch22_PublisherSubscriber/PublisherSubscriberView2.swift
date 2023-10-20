@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ios_01_Ch22_Ex02View: View {
+struct PublisherSubscriberView2: View {
     @State private var count: Int = 0
     var body: some View {
         //비율을 사용하여 화면 전체를 채운다
@@ -29,5 +29,5 @@ struct ios_01_Ch22_Ex02View: View {
 
 
 #Preview {
-    ios_01_Ch22_Ex02View()
+    PublisherSubscriberView2()
 }

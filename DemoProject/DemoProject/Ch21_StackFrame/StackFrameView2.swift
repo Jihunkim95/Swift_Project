@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ios_01_SwiftEx10_View: View {
+struct StackFrame2: View {
     @State var inputA:Int = 0
     @State var inputB:Int = 0
     @State var result:Int = 0
@@ -32,5 +32,5 @@ struct ios_01_SwiftEx10_View: View {
 }
 
 #Preview {
-    ios_01_SwiftEx10_View()
+    StackFrame2()
 }
