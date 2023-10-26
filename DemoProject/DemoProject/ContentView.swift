@@ -30,6 +30,14 @@ struct ContentView: View {
                     NavigationLink(destination: ConcurrencyListView()){
                         Text("Ch24 구조화된 동시성")
                     }.padding()
+                    
+                    NavigationLink(destination: ObservableEnvironmentListView()){
+                        Text("Ch27 Observable객체와 Enviorment 객체 튜토리얼")
+                    }.padding()
+                    NavigationLink(destination: AppStroageSceneStorageListView()){
+                        Text("Ch28 AppStorage와 SceneStorage를 사용한 SwiftUI 데이터의 지속성")
+                    }.padding()
+                    
                 }
 
             }
