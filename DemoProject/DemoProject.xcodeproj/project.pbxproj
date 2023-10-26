@@ -36,6 +36,15 @@
 		5C7B60BA2ADCD6FD00CAA5DF /* PublisherSubscriberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B60B92ADCD6FD00CAA5DF /* PublisherSubscriberView.swift */; };
 		5C7B60BC2ADCD72200CAA5DF /* PublisherSubscriberView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B60BB2ADCD72200CAA5DF /* PublisherSubscriberView2.swift */; };
 		5C7B60BE2ADCD73800CAA5DF /* PublisherSubscriberView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B60BD2ADCD73800CAA5DF /* PublisherSubscriberView3.swift */; };
+		5CCD8DF42AE6052B00C5D049 /* ActorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD8DF32AE6052B00C5D049 /* ActorListView.swift */; };
+		5CCD8DF62AE6055300C5D049 /* ActorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD8DF52AE6055300C5D049 /* ActorView.swift */; };
+		5CCD8DF82AE60E3300C5D049 /* ActerView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD8DF72AE60E3300C5D049 /* ActerView2.swift */; };
+		5CCD8DFA2AE6116E00C5D049 /* ActerView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD8DF92AE6116E00C5D049 /* ActerView3.swift */; };
+		5CCD8DFC2AE6140F00C5D049 /* ActerView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD8DFB2AE6140F00C5D049 /* ActerView4.swift */; };
+		5CCD8DFE2AE6186D00C5D049 /* ActerView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD8DFD2AE6186D00C5D049 /* ActerView5.swift */; };
+		5CCD8E002AE61B5000C5D049 /* ActerView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD8DFF2AE61B5000C5D049 /* ActerView6.swift */; };
+		5CCD8E022AE61E0000C5D049 /* ActerView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD8E012AE61E0000C5D049 /* ActerView7.swift */; };
+		5CCD8E042AE6289E00C5D049 /* ActerView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD8E032AE6289E00C5D049 /* ActerView8.swift */; };
 		5CDB0BE52AE0FA47007B8FC2 /* ConcurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDB0BE42AE0FA47007B8FC2 /* ConcurrencyView.swift */; };
 		5CDB0BE72AE1154B007B8FC2 /* ConcurrencyView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDB0BE62AE1154B007B8FC2 /* ConcurrencyView2.swift */; };
 		5CDB0BEB2AE115E4007B8FC2 /* ConcurrencyView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDB0BEA2AE115E4007B8FC2 /* ConcurrencyView3.swift */; };
@@ -73,6 +82,15 @@
 		5C7B60B92ADCD6FD00CAA5DF /* PublisherSubscriberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherSubscriberView.swift; sourceTree = "<group>"; };
 		5C7B60BB2ADCD72200CAA5DF /* PublisherSubscriberView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherSubscriberView2.swift; sourceTree = "<group>"; };
 		5C7B60BD2ADCD73800CAA5DF /* PublisherSubscriberView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherSubscriberView3.swift; sourceTree = "<group>"; };
+		5CCD8DF32AE6052B00C5D049 /* ActorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorListView.swift; sourceTree = "<group>"; };
+		5CCD8DF52AE6055300C5D049 /* ActorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorView.swift; sourceTree = "<group>"; };
+		5CCD8DF72AE60E3300C5D049 /* ActerView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActerView2.swift; sourceTree = "<group>"; };
+		5CCD8DF92AE6116E00C5D049 /* ActerView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActerView3.swift; sourceTree = "<group>"; };
+		5CCD8DFB2AE6140F00C5D049 /* ActerView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActerView4.swift; sourceTree = "<group>"; };
+		5CCD8DFD2AE6186D00C5D049 /* ActerView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActerView5.swift; sourceTree = "<group>"; };
+		5CCD8DFF2AE61B5000C5D049 /* ActerView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActerView6.swift; sourceTree = "<group>"; };
+		5CCD8E012AE61E0000C5D049 /* ActerView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActerView7.swift; sourceTree = "<group>"; };
+		5CCD8E032AE6289E00C5D049 /* ActerView8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActerView8.swift; sourceTree = "<group>"; };
 		5CDB0BE42AE0FA47007B8FC2 /* ConcurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyView.swift; sourceTree = "<group>"; };
 		5CDB0BE62AE1154B007B8FC2 /* ConcurrencyView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyView2.swift; sourceTree = "<group>"; };
 		5CDB0BEA2AE115E4007B8FC2 /* ConcurrencyView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyView3.swift; sourceTree = "<group>"; };
@@ -180,6 +198,7 @@
 				5C38597A2AE22385005C74D8 /* Ch22_PublisherSubscriber */,
 				5C3859792AE222F2005C74D8 /* Ch24_Concurrency */,
 				5CDB0BEE2AE12599007B8FC2 /* test.swift */,
+				5CCD8DF22AE604FF00C5D049 /* Ch25_Actor */,
 				5C595E8B2AD4E0BD00015539 /* Assets.xcassets */,
 				5C595E8D2AD4E0BD00015539 /* Preview Content */,
 			);
@@ -192,6 +211,22 @@
 				5C595E8E2AD4E0BD00015539 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5CCD8DF22AE604FF00C5D049 /* Ch25_Actor */ = {
+			isa = PBXGroup;
+			children = (
+				5CCD8DF32AE6052B00C5D049 /* ActorListView.swift */,
+				5CCD8DF52AE6055300C5D049 /* ActorView.swift */,
+				5CCD8DF72AE60E3300C5D049 /* ActerView2.swift */,
+				5CCD8DF92AE6116E00C5D049 /* ActerView3.swift */,
+				5CCD8DFB2AE6140F00C5D049 /* ActerView4.swift */,
+				5CCD8DFD2AE6186D00C5D049 /* ActerView5.swift */,
+				5CCD8DFF2AE61B5000C5D049 /* ActerView6.swift */,
+				5CCD8E012AE61E0000C5D049 /* ActerView7.swift */,
+				5CCD8E032AE6289E00C5D049 /* ActerView8.swift */,
+			);
+			path = Ch25_Actor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +302,9 @@
 				5C6CF61C2AD65DF200CA0C99 /* CreateCustomView2.swift in Sources */,
 				5C3859892AE23B7A005C74D8 /* ConcurrencyView4.swift in Sources */,
 				5C3859832AE22BDE005C74D8 /* StackFrameListView.swift in Sources */,
+				5CCD8DF82AE60E3300C5D049 /* ActerView2.swift in Sources */,
+				5CCD8DFA2AE6116E00C5D049 /* ActerView3.swift in Sources */,
+				5CCD8DFC2AE6140F00C5D049 /* ActerView4.swift in Sources */,
 				5C7B60BC2ADCD72200CAA5DF /* PublisherSubscriberView2.swift in Sources */,
 				5C38598B2AE245E9005C74D8 /* ConcurrencyView5.swift in Sources */,
 				5C52B6222AD55F8F00DB3DCA /* BasicSwiftUIView2.swift in Sources */,
@@ -278,8 +316,10 @@
 				5C38598D2AE247BB005C74D8 /* ConcurrencyView6.swift in Sources */,
 				5C595E9C2AD51C9F00015539 /* FormatView.swift in Sources */,
 				5C38597F2AE22AAD005C74D8 /* BasicSwiftUIListView.swift in Sources */,
+				5CCD8E022AE61E0000C5D049 /* ActerView7.swift in Sources */,
 				5C7B60BE2ADCD73800CAA5DF /* PublisherSubscriberView3.swift in Sources */,
 				5C595E882AD4E0BD00015539 /* DemoProjectApp.swift in Sources */,
+				5CCD8E002AE61B5000C5D049 /* ActerView6.swift in Sources */,
 				5CDB0BEB2AE115E4007B8FC2 /* ConcurrencyView3.swift in Sources */,
 				5C6CF61E2AD65E1200CA0C99 /* CreateCustomView.swift in Sources */,
 				5C3859912AE24C6E005C74D8 /* ConcurrencyView8.swift in Sources */,
@@ -288,12 +328,16 @@
 				5C3859952AE25349005C74D8 /* ConcurrencyView10.swift in Sources */,
 				5CDB0BE52AE0FA47007B8FC2 /* ConcurrencyView.swift in Sources */,
 				5C5BD2332AD7D8A900B388FA /* StackFrameView3.swift in Sources */,
+				5CCD8E042AE6289E00C5D049 /* ActerView8.swift in Sources */,
+				5CCD8DF62AE6055300C5D049 /* ActorView.swift in Sources */,
 				5C3859812AE22BC6005C74D8 /* CreateCustomListView.swift in Sources */,
 				5C38598F2AE249FF005C74D8 /* ConcurrencyView7.swift in Sources */,
 				5C5BD22F2AD7D88600B388FA /* StackFrameView.swift in Sources */,
+				5CCD8DFE2AE6186D00C5D049 /* ActerView5.swift in Sources */,
 				5CDB0BE72AE1154B007B8FC2 /* ConcurrencyView2.swift in Sources */,
 				5C7B60BA2ADCD6FD00CAA5DF /* PublisherSubscriberView.swift in Sources */,
 				5C3859872AE22C21005C74D8 /* ConcurrencyListView.swift in Sources */,
+				5CCD8DF42AE6052B00C5D049 /* ActorListView.swift in Sources */,
 				5C3859852AE22C02005C74D8 /* PublisherSubscriberListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

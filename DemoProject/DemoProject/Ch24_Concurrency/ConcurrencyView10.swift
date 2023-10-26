@@ -17,7 +17,7 @@ struct ConcurrencyView10: View {
     @State private var x:Int = 0
     @State private var y:Int = 0
     @State private var result:Int = 0
-//    @StateObject var viewModel = ArticleViewModel()
+
     var body: some View {
 
         VStack{
@@ -96,12 +96,13 @@ struct ConcurrencyView10: View {
         }
         func sumFrom(_ start:Int,_ end:Int) async -> Int {
             var ex:Int = 0
+            
             for i in start...end{
                 ex += i
             }
             return ex
         }
-//    }
+
 }
 
 #Preview {
