@@ -74,9 +74,6 @@ struct AppStroageSceneStorageView1: View {
             })
 
         }
-
-
-        
     }
 }
 
