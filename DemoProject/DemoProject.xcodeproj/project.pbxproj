@@ -36,6 +36,10 @@
 		5C7B60BC2ADCD72200CAA5DF /* PublisherSubscriberView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B60BB2ADCD72200CAA5DF /* PublisherSubscriberView2.swift */; };
 		5C7B60BE2ADCD73800CAA5DF /* PublisherSubscriberView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B60BD2ADCD73800CAA5DF /* PublisherSubscriberView3.swift */; };
 		5C9EBF4D2AEA8E6500FA84AB /* AppStroageSceneStorageView1_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBF4C2AEA8E6500FA84AB /* AppStroageSceneStorageView1_2.swift */; };
+		5C9EBF4F2AEDE26F00FA84AB /* AppStroageSceneStorageView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBF4E2AEDE26F00FA84AB /* AppStroageSceneStorageView2.swift */; };
+		5C9EBF512AEDE38800FA84AB /* AppStroageSceneStorageView2_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBF502AEDE38800FA84AB /* AppStroageSceneStorageView2_2.swift */; };
+		5C9EBF532AEDFBF800FA84AB /* AppStroageSceneStorageView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBF522AEDFBF800FA84AB /* AppStroageSceneStorageView3.swift */; };
+		5C9EBF552AEE00F300FA84AB /* AppStroageSceneStorageView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBF542AEE00F300FA84AB /* AppStroageSceneStorageView4.swift */; };
 		5CCD8DF42AE6052B00C5D049 /* ActorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD8DF32AE6052B00C5D049 /* ActorListView.swift */; };
 		5CCD8DF62AE6055300C5D049 /* ActorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD8DF52AE6055300C5D049 /* ActorView.swift */; };
 		5CCD8DF82AE60E3300C5D049 /* ActerView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD8DF72AE60E3300C5D049 /* ActerView2.swift */; };
@@ -94,6 +98,10 @@
 		5C7B60BB2ADCD72200CAA5DF /* PublisherSubscriberView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherSubscriberView2.swift; sourceTree = "<group>"; };
 		5C7B60BD2ADCD73800CAA5DF /* PublisherSubscriberView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherSubscriberView3.swift; sourceTree = "<group>"; };
 		5C9EBF4C2AEA8E6500FA84AB /* AppStroageSceneStorageView1_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStroageSceneStorageView1_2.swift; sourceTree = "<group>"; };
+		5C9EBF4E2AEDE26F00FA84AB /* AppStroageSceneStorageView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStroageSceneStorageView2.swift; sourceTree = "<group>"; };
+		5C9EBF502AEDE38800FA84AB /* AppStroageSceneStorageView2_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStroageSceneStorageView2_2.swift; sourceTree = "<group>"; };
+		5C9EBF522AEDFBF800FA84AB /* AppStroageSceneStorageView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStroageSceneStorageView3.swift; sourceTree = "<group>"; };
+		5C9EBF542AEE00F300FA84AB /* AppStroageSceneStorageView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStroageSceneStorageView4.swift; sourceTree = "<group>"; };
 		5CCD8DF32AE6052B00C5D049 /* ActorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorListView.swift; sourceTree = "<group>"; };
 		5CCD8DF52AE6055300C5D049 /* ActorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorView.swift; sourceTree = "<group>"; };
 		5CCD8DF72AE60E3300C5D049 /* ActerView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActerView2.swift; sourceTree = "<group>"; };
@@ -285,6 +293,10 @@
 				5CCD8E4E2AEA519900C5D049 /* AppStoregeView.swift */,
 				5CE844DD2AEA5B7500873B14 /* AppStroageSceneStorageView1.swift */,
 				5C9EBF4C2AEA8E6500FA84AB /* AppStroageSceneStorageView1_2.swift */,
+				5C9EBF4E2AEDE26F00FA84AB /* AppStroageSceneStorageView2.swift */,
+				5C9EBF502AEDE38800FA84AB /* AppStroageSceneStorageView2_2.swift */,
+				5C9EBF522AEDFBF800FA84AB /* AppStroageSceneStorageView3.swift */,
+				5C9EBF542AEE00F300FA84AB /* AppStroageSceneStorageView4.swift */,
 			);
 			path = Ch28_AppStroageSceneStorage;
 			sourceTree = "<group>";
@@ -368,7 +380,10 @@
 				5CCD8DFA2AE6116E00C5D049 /* ActerView3.swift in Sources */,
 				5CCD8DFC2AE6140F00C5D049 /* ActerView4.swift in Sources */,
 				5C7B60BC2ADCD72200CAA5DF /* PublisherSubscriberView2.swift in Sources */,
+				5C9EBF4F2AEDE26F00FA84AB /* AppStroageSceneStorageView2.swift in Sources */,
 				5CCD8E3F2AEA2F6600C5D049 /* ObservableEnvironmentView.swift in Sources */,
+				5C9EBF532AEDFBF800FA84AB /* AppStroageSceneStorageView3.swift in Sources */,
+				5C9EBF552AEE00F300FA84AB /* AppStroageSceneStorageView4.swift in Sources */,
 				5C38598B2AE245E9005C74D8 /* ConcurrencyView5.swift in Sources */,
 				5C52B6222AD55F8F00DB3DCA /* BasicSwiftUIView2.swift in Sources */,
 				5C5BD2312AD7D89F00B388FA /* StackFrameView2.swift in Sources */,
@@ -383,6 +398,7 @@
 				5C7B60BE2ADCD73800CAA5DF /* PublisherSubscriberView3.swift in Sources */,
 				5CCD8E002AE61B5000C5D049 /* ActerView6.swift in Sources */,
 				5CDB0BEB2AE115E4007B8FC2 /* ConcurrencyView3.swift in Sources */,
+				5C9EBF512AEDE38800FA84AB /* AppStroageSceneStorageView2_2.swift in Sources */,
 				5CCD8E512AEA51E100C5D049 /* AppStroageSceneStorageContentView.swift in Sources */,
 				5C6CF61E2AD65E1200CA0C99 /* CreateCustomView.swift in Sources */,
 				5C3859912AE24C6E005C74D8 /* ConcurrencyView8.swift in Sources */,

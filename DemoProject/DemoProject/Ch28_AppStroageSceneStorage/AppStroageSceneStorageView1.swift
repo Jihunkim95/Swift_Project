@@ -17,7 +17,7 @@ extension Color: RawRepresentable {
         }
         
         do{
-            let color = try NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(data) as? UIColor ?? .black
+            let color = try NSKeyedUnarchiver.unarchivedObject(ofClass: UIColor.self, from: data) ?? .black //아카이브 형태를 풀어줌
             self = Color(color)
         }catch{
             self = .black
@@ -28,7 +28,7 @@ extension Color: RawRepresentable {
     public var rawValue: String {
         
         do{
-            let data = try NSKeyedArchiver.archivedData(withRootObject: UIColor(self), requiringSecureCoding: false) as Data
+            let data = try NSKeyedArchiver.archivedData(withRootObject: UIColor(self), requiringSecureCoding: false) as Data // 아카이브 형태로 만들어줌
             return data.base64EncodedString()
             
         }catch{

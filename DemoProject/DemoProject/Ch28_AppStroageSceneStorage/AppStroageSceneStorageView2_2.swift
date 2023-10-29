@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct AppStroageSceneStorageView2_2: View {
+    @SceneStorage("dummy") var dummy:String = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TextField("내용입력", text: $dummy)
     }
 }
 
