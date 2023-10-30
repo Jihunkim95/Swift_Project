@@ -40,6 +40,8 @@
 		5C9EBF512AEDE38800FA84AB /* AppStroageSceneStorageView2_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBF502AEDE38800FA84AB /* AppStroageSceneStorageView2_2.swift */; };
 		5C9EBF532AEDFBF800FA84AB /* AppStroageSceneStorageView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBF522AEDFBF800FA84AB /* AppStroageSceneStorageView3.swift */; };
 		5C9EBF552AEE00F300FA84AB /* AppStroageSceneStorageView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBF542AEE00F300FA84AB /* AppStroageSceneStorageView4.swift */; };
+		5C9EBF572AEE1B1200FA84AB /* AppStroageSceneStorageView3_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBF562AEE1B1200FA84AB /* AppStroageSceneStorageView3_2.swift */; };
+		5C9EBF5A2AEF70F600FA84AB /* StackAlignmentGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBF592AEF70F600FA84AB /* StackAlignmentGuideView.swift */; };
 		5CCD8DF42AE6052B00C5D049 /* ActorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD8DF32AE6052B00C5D049 /* ActorListView.swift */; };
 		5CCD8DF62AE6055300C5D049 /* ActorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD8DF52AE6055300C5D049 /* ActorView.swift */; };
 		5CCD8DF82AE60E3300C5D049 /* ActerView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD8DF72AE60E3300C5D049 /* ActerView2.swift */; };
@@ -102,6 +104,8 @@
 		5C9EBF502AEDE38800FA84AB /* AppStroageSceneStorageView2_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStroageSceneStorageView2_2.swift; sourceTree = "<group>"; };
 		5C9EBF522AEDFBF800FA84AB /* AppStroageSceneStorageView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStroageSceneStorageView3.swift; sourceTree = "<group>"; };
 		5C9EBF542AEE00F300FA84AB /* AppStroageSceneStorageView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStroageSceneStorageView4.swift; sourceTree = "<group>"; };
+		5C9EBF562AEE1B1200FA84AB /* AppStroageSceneStorageView3_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStroageSceneStorageView3_2.swift; sourceTree = "<group>"; };
+		5C9EBF592AEF70F600FA84AB /* StackAlignmentGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackAlignmentGuideView.swift; sourceTree = "<group>"; };
 		5CCD8DF32AE6052B00C5D049 /* ActorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorListView.swift; sourceTree = "<group>"; };
 		5CCD8DF52AE6055300C5D049 /* ActorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorView.swift; sourceTree = "<group>"; };
 		5CCD8DF72AE60E3300C5D049 /* ActerView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActerView2.swift; sourceTree = "<group>"; };
@@ -233,6 +237,7 @@
 				5CCD8E322AEA026300C5D049 /* Ch26_Lifecycle */,
 				5CCD8E3D2AEA2F4600C5D049 /* Ch27_ObservableEnvironment */,
 				5CCD8E462AEA42F900C5D049 /* Ch28_AppStroageSceneStorage */,
+				5C9EBF582AEF705500FA84AB /* Ch29_StackAlignmentGuide */,
 				5C595E8B2AD4E0BD00015539 /* Assets.xcassets */,
 				5C595E8D2AD4E0BD00015539 /* Preview Content */,
 			);
@@ -245,6 +250,14 @@
 				5C595E8E2AD4E0BD00015539 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5C9EBF582AEF705500FA84AB /* Ch29_StackAlignmentGuide */ = {
+			isa = PBXGroup;
+			children = (
+				5C9EBF592AEF70F600FA84AB /* StackAlignmentGuideView.swift */,
+			);
+			path = Ch29_StackAlignmentGuide;
 			sourceTree = "<group>";
 		};
 		5CCD8DF22AE604FF00C5D049 /* Ch25_Actor */ = {
@@ -296,6 +309,7 @@
 				5C9EBF4E2AEDE26F00FA84AB /* AppStroageSceneStorageView2.swift */,
 				5C9EBF502AEDE38800FA84AB /* AppStroageSceneStorageView2_2.swift */,
 				5C9EBF522AEDFBF800FA84AB /* AppStroageSceneStorageView3.swift */,
+				5C9EBF562AEE1B1200FA84AB /* AppStroageSceneStorageView3_2.swift */,
 				5C9EBF542AEE00F300FA84AB /* AppStroageSceneStorageView4.swift */,
 			);
 			path = Ch28_AppStroageSceneStorage;
@@ -402,6 +416,7 @@
 				5CCD8E512AEA51E100C5D049 /* AppStroageSceneStorageContentView.swift in Sources */,
 				5C6CF61E2AD65E1200CA0C99 /* CreateCustomView.swift in Sources */,
 				5C3859912AE24C6E005C74D8 /* ConcurrencyView8.swift in Sources */,
+				5C9EBF572AEE1B1200FA84AB /* AppStroageSceneStorageView3_2.swift in Sources */,
 				5C595E962AD50CFC00015539 /* CalcView.swift in Sources */,
 				5C9EBF4D2AEA8E6500FA84AB /* AppStroageSceneStorageView1_2.swift in Sources */,
 				5C3859932AE250C8005C74D8 /* ConcurrencyView9.swift in Sources */,
@@ -416,6 +431,7 @@
 				5C38598F2AE249FF005C74D8 /* ConcurrencyView7.swift in Sources */,
 				5C5BD22F2AD7D88600B388FA /* StackFrameView.swift in Sources */,
 				5CCD8DFE2AE6186D00C5D049 /* ActerView5.swift in Sources */,
+				5C9EBF5A2AEF70F600FA84AB /* StackAlignmentGuideView.swift in Sources */,
 				5CDB0BE72AE1154B007B8FC2 /* ConcurrencyView2.swift in Sources */,
 				5CCD8E4F2AEA519900C5D049 /* AppStoregeView.swift in Sources */,
 				5CCD8E452AEA42DC00C5D049 /* LifecycleListView.swift in Sources */,

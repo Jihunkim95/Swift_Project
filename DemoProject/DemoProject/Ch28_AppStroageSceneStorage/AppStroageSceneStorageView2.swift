@@ -16,8 +16,8 @@ struct AppStroageSceneStorageView2: View {
 
         TabView{
             AppStroageSceneStorageView2_2().tabItem {
-                Image(systemName: "1.square.fill")
                 Text("First")
+                Image(systemName: "1.square.fill")
               }
         }
         
