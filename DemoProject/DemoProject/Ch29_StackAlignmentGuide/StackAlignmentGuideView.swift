@@ -6,7 +6,15 @@
 //
 
 import SwiftUI
-
+//p.289 수직 정렬 타입 생성
+extension VerticalAlignment{
+    private enum OneThird : AlignmentID{
+        static func defaultValue(in d: ViewDimensions) -> CGFloat {
+            return d.height / 3
+        }
+    }
+    static let oneThrid = VerticalAlignment(OneThird.self)
+}
 
 struct StackAlignmentGuideView: View {
     var body: some View {
@@ -26,7 +34,7 @@ struct StackAlignmentGuideView: View {
                 Text("This is short")
                     .font(.headline)
             }
-            // 정렬 가이드
+            //283. 커스텀 정렬타입
             VStack(alignment: .leading) {
                 Rectangle()
                     .foregroundColor(.green)
@@ -43,10 +51,33 @@ struct StackAlignmentGuideView: View {
                     .alignmentGuide(.leading, computeValue: { d in
                         120.0
                     })
-
+            }
+            //288. 커스텀 정렬타입
+            HStack(alignment: .oneThrid) {
+                Rectangle()
+                    .foregroundColor(.green)
+                    .frame(width: 50, height: 200)
+                //p.289 수직 정렬 타입 적용
+                Rectangle()
+                    .foregroundColor(.red)
+                    .frame(width: 50, height: 200)
+                    .alignmentGuide(.oneThrid, computeValue: { d in
+                        d[VerticalAlignment.top]
+                    })
+                Rectangle()
+                    .foregroundColor(.blue)
+                    .frame(width: 50, height: 200)
+                Rectangle()
+                    .foregroundColor(.blue)
+                    .frame(width: 50, height: 200)
+                    .alignmentGuide(.oneThrid, computeValue: { d in
+                        d[VerticalAlignment.top]
+                    })
             }
         }
+        
     }
+
 }
 
 #Preview {

@@ -37,6 +37,10 @@ struct ContentView: View {
                     NavigationLink(destination: AppStroageSceneStorageListView()){
                         Text("Ch28 AppStorage와 SceneStorage를 사용한 SwiftUI 데이터의 지속성")
                     }.padding()
+//
+                    NavigationLink(destination: StackAlignmentGuideListView()){
+                        Text("Ch29 스택 정렬과 정렬가이드")
+                    }.padding()
                     
                 }
 
