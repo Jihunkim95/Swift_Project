@@ -51,6 +51,21 @@
 		5C9EBF832AEFAC1B00FA84AB /* StackAlignmentGuideView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBF822AEFAC1B00FA84AB /* StackAlignmentGuideView1.swift */; };
 		5C9EBF852AEFAC2300FA84AB /* StackAlignmentGuideView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBF842AEFAC2300FA84AB /* StackAlignmentGuideView2.swift */; };
 		5C9EBF872AEFC29B00FA84AB /* StackAlignmentGuideView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBF862AEFC29B00FA84AB /* StackAlignmentGuideView6.swift */; };
+		5C9EBF8B2AEFE1FC00FA84AB /* Calc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBF8A2AEFE1FC00FA84AB /* Calc.swift */; };
+		5C9EBF8E2AF0DC1300FA84AB /* ListNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBF8D2AF0DC1300FA84AB /* ListNavigationView.swift */; };
+		5C9EBF902AF1137700FA84AB /* ListNavigationView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBF8F2AF1137700FA84AB /* ListNavigationView2.swift */; };
+		5C9EBF922AF1193B00FA84AB /* ListNavigationView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBF912AF1193B00FA84AB /* ListNavigationView3.swift */; };
+		5C9EBFB12AF126A600FA84AB /* ListNavigationView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBFB02AF126A600FA84AB /* ListNavigationView4.swift */; };
+		5C9EBFBD2AF1DDFD00FA84AB /* ListNavigationQuizView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBFBC2AF1DDFD00FA84AB /* ListNavigationQuizView1.swift */; };
+		5C9EBFBF2AF1E24200FA84AB /* ListNavigationQuizView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBFBE2AF1E24200FA84AB /* ListNavigationQuizView2.swift */; };
+		5C9EBFC12AF1E90700FA84AB /* ListNavigationQuizView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBFC02AF1E90700FA84AB /* ListNavigationQuizView3.swift */; };
+		5C9EBFC32AF1E93300FA84AB /* ListNavigationQuizView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBFC22AF1E93300FA84AB /* ListNavigationQuizView4.swift */; };
+		5C9EBFC52AF1EBE600FA84AB /* ListNavigationQuizView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBFC42AF1EBE600FA84AB /* ListNavigationQuizView5.swift */; };
+		5C9EBFC72AF2177800FA84AB /* MutiSecectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBFC62AF2177800FA84AB /* MutiSecectionView.swift */; };
+		5C9EBFC92AF2293E00FA84AB /* NavigationQuizView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBFC82AF2293E00FA84AB /* NavigationQuizView1.swift */; };
+		5C9EBFCB2AF2410F00FA84AB /* NavigationQuizView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBFCA2AF2410F00FA84AB /* NavigationQuizView2.swift */; };
+		5C9EBFCD2AF2486300FA84AB /* NavigationQuizView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBFCC2AF2486300FA84AB /* NavigationQuizView3.swift */; };
+		5C9EBFCF2AF248ED00FA84AB /* NavigationQuizView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EBFCE2AF248ED00FA84AB /* NavigationQuizView4.swift */; };
 		5CCD8DF42AE6052B00C5D049 /* ActorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD8DF32AE6052B00C5D049 /* ActorListView.swift */; };
 		5CCD8DF62AE6055300C5D049 /* ActorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD8DF52AE6055300C5D049 /* ActorView.swift */; };
 		5CCD8DF82AE60E3300C5D049 /* ActerView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD8DF72AE60E3300C5D049 /* ActerView2.swift */; };
@@ -124,6 +139,21 @@
 		5C9EBF822AEFAC1B00FA84AB /* StackAlignmentGuideView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackAlignmentGuideView1.swift; sourceTree = "<group>"; };
 		5C9EBF842AEFAC2300FA84AB /* StackAlignmentGuideView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackAlignmentGuideView2.swift; sourceTree = "<group>"; };
 		5C9EBF862AEFC29B00FA84AB /* StackAlignmentGuideView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackAlignmentGuideView6.swift; sourceTree = "<group>"; };
+		5C9EBF8A2AEFE1FC00FA84AB /* Calc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calc.swift; sourceTree = "<group>"; };
+		5C9EBF8D2AF0DC1300FA84AB /* ListNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigationView.swift; sourceTree = "<group>"; };
+		5C9EBF8F2AF1137700FA84AB /* ListNavigationView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigationView2.swift; sourceTree = "<group>"; };
+		5C9EBF912AF1193B00FA84AB /* ListNavigationView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigationView3.swift; sourceTree = "<group>"; };
+		5C9EBFB02AF126A600FA84AB /* ListNavigationView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigationView4.swift; sourceTree = "<group>"; };
+		5C9EBFBC2AF1DDFD00FA84AB /* ListNavigationQuizView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigationQuizView1.swift; sourceTree = "<group>"; };
+		5C9EBFBE2AF1E24200FA84AB /* ListNavigationQuizView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigationQuizView2.swift; sourceTree = "<group>"; };
+		5C9EBFC02AF1E90700FA84AB /* ListNavigationQuizView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigationQuizView3.swift; sourceTree = "<group>"; };
+		5C9EBFC22AF1E93300FA84AB /* ListNavigationQuizView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigationQuizView4.swift; sourceTree = "<group>"; };
+		5C9EBFC42AF1EBE600FA84AB /* ListNavigationQuizView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigationQuizView5.swift; sourceTree = "<group>"; };
+		5C9EBFC62AF2177800FA84AB /* MutiSecectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutiSecectionView.swift; sourceTree = "<group>"; };
+		5C9EBFC82AF2293E00FA84AB /* NavigationQuizView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationQuizView1.swift; sourceTree = "<group>"; };
+		5C9EBFCA2AF2410F00FA84AB /* NavigationQuizView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationQuizView2.swift; sourceTree = "<group>"; };
+		5C9EBFCC2AF2486300FA84AB /* NavigationQuizView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationQuizView3.swift; sourceTree = "<group>"; };
+		5C9EBFCE2AF248ED00FA84AB /* NavigationQuizView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationQuizView4.swift; sourceTree = "<group>"; };
 		5CCD8DF32AE6052B00C5D049 /* ActorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorListView.swift; sourceTree = "<group>"; };
 		5CCD8DF52AE6055300C5D049 /* ActorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorView.swift; sourceTree = "<group>"; };
 		5CCD8DF72AE60E3300C5D049 /* ActerView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActerView2.swift; sourceTree = "<group>"; };
@@ -256,6 +286,7 @@
 				5CCD8E3D2AEA2F4600C5D049 /* Ch27_ObservableEnvironment */,
 				5CCD8E462AEA42F900C5D049 /* Ch28_AppStroageSceneStorage */,
 				5C9EBF582AEF705500FA84AB /* Ch29_StackAlignmentGuide */,
+				5C9EBF8C2AF0DA7300FA84AB /* Ch30_ListNavigation */,
 				5C595E8B2AD4E0BD00015539 /* Assets.xcassets */,
 				5C595E8D2AD4E0BD00015539 /* Preview Content */,
 			);
@@ -283,8 +314,30 @@
 				5C9EBF762AEF7FB800FA84AB /* StackAlignmentGuideView4.swift */,
 				5C9EBF782AEF7FCF00FA84AB /* StackAlignmentGuideView5.swift */,
 				5C9EBF862AEFC29B00FA84AB /* StackAlignmentGuideView6.swift */,
+				5C9EBF8A2AEFE1FC00FA84AB /* Calc.swift */,
 			);
 			path = Ch29_StackAlignmentGuide;
+			sourceTree = "<group>";
+		};
+		5C9EBF8C2AF0DA7300FA84AB /* Ch30_ListNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				5C9EBF8D2AF0DC1300FA84AB /* ListNavigationView.swift */,
+				5C9EBF8F2AF1137700FA84AB /* ListNavigationView2.swift */,
+				5C9EBF912AF1193B00FA84AB /* ListNavigationView3.swift */,
+				5C9EBFB02AF126A600FA84AB /* ListNavigationView4.swift */,
+				5C9EBFBC2AF1DDFD00FA84AB /* ListNavigationQuizView1.swift */,
+				5C9EBFBE2AF1E24200FA84AB /* ListNavigationQuizView2.swift */,
+				5C9EBFC02AF1E90700FA84AB /* ListNavigationQuizView3.swift */,
+				5C9EBFC22AF1E93300FA84AB /* ListNavigationQuizView4.swift */,
+				5C9EBFC42AF1EBE600FA84AB /* ListNavigationQuizView5.swift */,
+				5C9EBFC62AF2177800FA84AB /* MutiSecectionView.swift */,
+				5C9EBFC82AF2293E00FA84AB /* NavigationQuizView1.swift */,
+				5C9EBFCA2AF2410F00FA84AB /* NavigationQuizView2.swift */,
+				5C9EBFCC2AF2486300FA84AB /* NavigationQuizView3.swift */,
+				5C9EBFCE2AF248ED00FA84AB /* NavigationQuizView4.swift */,
+			);
+			path = Ch30_ListNavigation;
 			sourceTree = "<group>";
 		};
 		5CCD8DF22AE604FF00C5D049 /* Ch25_Actor */ = {
@@ -418,6 +471,7 @@
 				5C9EBF7B2AEF948500FA84AB /* StackAlignmentGuideListView.swift in Sources */,
 				5C3859832AE22BDE005C74D8 /* StackFrameListView.swift in Sources */,
 				5CCD8E342AEA02AF00C5D049 /* LifecycleDemoView.swift in Sources */,
+				5C9EBFBF2AF1E24200FA84AB /* ListNavigationQuizView2.swift in Sources */,
 				5CCD8DF82AE60E3300C5D049 /* ActerView2.swift in Sources */,
 				5CCD8DFA2AE6116E00C5D049 /* ActerView3.swift in Sources */,
 				5CCD8DFC2AE6140F00C5D049 /* ActerView4.swift in Sources */,
@@ -427,25 +481,33 @@
 				5C9EBF4F2AEDE26F00FA84AB /* AppStroageSceneStorageView2.swift in Sources */,
 				5CCD8E3F2AEA2F6600C5D049 /* ObservableEnvironmentView.swift in Sources */,
 				5C9EBF532AEDFBF800FA84AB /* AppStroageSceneStorageView3.swift in Sources */,
+				5C9EBFC12AF1E90700FA84AB /* ListNavigationQuizView3.swift in Sources */,
+				5C9EBF8E2AF0DC1300FA84AB /* ListNavigationView.swift in Sources */,
 				5C9EBF772AEF7FB800FA84AB /* StackAlignmentGuideView4.swift in Sources */,
 				5C9EBF552AEE00F300FA84AB /* AppStroageSceneStorageView4.swift in Sources */,
+				5C9EBFC32AF1E93300FA84AB /* ListNavigationQuizView4.swift in Sources */,
 				5C9EBF7F2AEFA42200FA84AB /* AligmentHVStackCrossView.swift in Sources */,
 				5C38598B2AE245E9005C74D8 /* ConcurrencyView5.swift in Sources */,
 				5C52B6222AD55F8F00DB3DCA /* BasicSwiftUIView2.swift in Sources */,
 				5C5BD2312AD7D89F00B388FA /* StackFrameView2.swift in Sources */,
 				5C595E8A2AD4E0BD00015539 /* ContentView.swift in Sources */,
+				5C9EBFCB2AF2410F00FA84AB /* NavigationQuizView2.swift in Sources */,
 				5C595E9A2AD5175B00015539 /* DivideOrangeView.swift in Sources */,
 				5CCD8E4A2AEA435600C5D049 /* SceneStorageView.swift in Sources */,
 				5C52B6202AD5489400DB3DCA /* BasicSwiftUIView.swift in Sources */,
+				5C9EBFC72AF2177800FA84AB /* MutiSecectionView.swift in Sources */,
 				5C38598D2AE247BB005C74D8 /* ConcurrencyView6.swift in Sources */,
 				5C9EBF7D2AEF961D00FA84AB /* AligmentZStackView.swift in Sources */,
 				5C595E9C2AD51C9F00015539 /* FormatView.swift in Sources */,
+				5C9EBFBD2AF1DDFD00FA84AB /* ListNavigationQuizView1.swift in Sources */,
 				5C38597F2AE22AAD005C74D8 /* BasicSwiftUIListView.swift in Sources */,
 				5CCD8E022AE61E0000C5D049 /* ActerView7.swift in Sources */,
 				5C7B60BE2ADCD73800CAA5DF /* PublisherSubscriberView3.swift in Sources */,
 				5CCD8E002AE61B5000C5D049 /* ActerView6.swift in Sources */,
+				5C9EBF902AF1137700FA84AB /* ListNavigationView2.swift in Sources */,
 				5CDB0BEB2AE115E4007B8FC2 /* ConcurrencyView3.swift in Sources */,
 				5C9EBF792AEF7FCF00FA84AB /* StackAlignmentGuideView5.swift in Sources */,
+				5C9EBFC92AF2293E00FA84AB /* NavigationQuizView1.swift in Sources */,
 				5C9EBF512AEDE38800FA84AB /* AppStroageSceneStorageView2_2.swift in Sources */,
 				5CCD8E512AEA51E100C5D049 /* AppStroageSceneStorageContentView.swift in Sources */,
 				5C6CF61E2AD65E1200CA0C99 /* CreateCustomView.swift in Sources */,
@@ -457,18 +519,22 @@
 				5C3859932AE250C8005C74D8 /* ConcurrencyView9.swift in Sources */,
 				5CCD8E412AEA31D100C5D049 /* ObservableEnvironmentListView.swift in Sources */,
 				5C3859952AE25349005C74D8 /* ConcurrencyView10.swift in Sources */,
+				5C9EBFCF2AF248ED00FA84AB /* NavigationQuizView4.swift in Sources */,
 				5CDB0BE52AE0FA47007B8FC2 /* ConcurrencyView.swift in Sources */,
 				5C5BD2332AD7D8A900B388FA /* StackFrameView3.swift in Sources */,
 				5CCD8E042AE6289E00C5D049 /* ActerView8.swift in Sources */,
 				5CCD8DF62AE6055300C5D049 /* ActorView.swift in Sources */,
 				5CCD8E362AEA03A800C5D049 /* FirstTabView.swift in Sources */,
 				5C3859812AE22BC6005C74D8 /* CreateCustomListView.swift in Sources */,
+				5C9EBFCD2AF2486300FA84AB /* NavigationQuizView3.swift in Sources */,
 				5C38598F2AE249FF005C74D8 /* ConcurrencyView7.swift in Sources */,
 				5C5BD22F2AD7D88600B388FA /* StackFrameView.swift in Sources */,
+				5C9EBFB12AF126A600FA84AB /* ListNavigationView4.swift in Sources */,
 				5CCD8DFE2AE6186D00C5D049 /* ActerView5.swift in Sources */,
 				5C9EBF5A2AEF70F600FA84AB /* StackAlignmentGuideView.swift in Sources */,
 				5CDB0BE72AE1154B007B8FC2 /* ConcurrencyView2.swift in Sources */,
 				5CCD8E4F2AEA519900C5D049 /* AppStoregeView.swift in Sources */,
+				5C9EBF8B2AEFE1FC00FA84AB /* Calc.swift in Sources */,
 				5CCD8E452AEA42DC00C5D049 /* LifecycleListView.swift in Sources */,
 				5C9EBF852AEFAC2300FA84AB /* StackAlignmentGuideView2.swift in Sources */,
 				5C7B60BA2ADCD6FD00CAA5DF /* PublisherSubscriberView.swift in Sources */,
@@ -477,8 +543,10 @@
 				5C3859872AE22C21005C74D8 /* ConcurrencyListView.swift in Sources */,
 				5CCD8E4D2AEA4FF700C5D049 /* DemoProjectApp.swift in Sources */,
 				5CCD8DF42AE6052B00C5D049 /* ActorListView.swift in Sources */,
+				5C9EBFC52AF1EBE600FA84AB /* ListNavigationQuizView5.swift in Sources */,
 				5CCD8E382AEA03BF00C5D049 /* SecondTabView.swift in Sources */,
 				5C3859852AE22C02005C74D8 /* PublisherSubscriberListView.swift in Sources */,
+				5C9EBF922AF1193B00FA84AB /* ListNavigationView3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

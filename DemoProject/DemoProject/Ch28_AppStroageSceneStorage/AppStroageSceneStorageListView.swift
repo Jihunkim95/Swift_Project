@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AppStroageSceneStorageListView: View {
-    @EnvironmentObject var colorsetting:ColorSetting
+//    @EnvironmentObject var colorsetting:ColorSetting
     
     var body: some View {
         NavigationView{
@@ -18,9 +18,9 @@ struct AppStroageSceneStorageListView: View {
                         Text("ContentView")
                     }.padding()
                     
-                    NavigationLink(destination: AppStroageSceneStorageView1().environmentObject(ColorSetting())){
-                        Text("예제1, 1화면 컬러피커 2화면 해당 배경색으로변경")
-                    }.padding()
+//                    NavigationLink(destination: AppStroageSceneStorageView1().environmentObject(ColorSetting())){
+//                        Text("예제1, 1화면 컬러피커 2화면 해당 배경색으로변경")
+//                    }.padding()
                     
                     NavigationLink(destination: AppStroageSceneStorageView2()){
                         Text("예제2, TabView활용 앱이 백그라운드로 또는 전 화면으로 돌아갔다가 다시 활성화될 때 복원")

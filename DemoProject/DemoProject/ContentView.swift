@@ -41,6 +41,9 @@ struct ContentView: View {
                     NavigationLink(destination: StackAlignmentGuideListView()){
                         Text("Ch29 스택 정렬과 정렬가이드")
                     }.padding()
+                    NavigationLink(destination: ListNavigationQuizView5()){
+                        Text("3번연습")
+                    }.padding()
                     
                 }
 

@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct AppStroageSceneStorageView1_2: View {
-    @EnvironmentObject var colorsetting:ColorSetting
+//    @EnvironmentObject var colorsetting:ColorSetting
     var body: some View {
-        ZStack{
-            colorsetting.storedColor.ignoresSafeArea()
-        }
+        Text(",")
+//        ZStack{
+//            colorsetting.storedColor.ignoresSafeArea()
+//        }
     }
 }
 
-#Preview {
-    AppStroageSceneStorageView1_2().environmentObject(ColorSetting())
-}
+//#Preview {
+//    AppStroageSceneStorageView1_2().environmentObject(ColorSetting())
+//}

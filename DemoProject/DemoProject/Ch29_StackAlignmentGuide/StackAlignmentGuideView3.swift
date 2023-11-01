@@ -30,6 +30,7 @@ struct StackAlignmentGuideView3: View {
                     .fill(Color.orange)
                     .frame(width: 50, height: 50)
                     .alignmentGuide(.top, computeValue: {
+                        //이렇게하면 dimension값을 Previews에서도 볼수 있음
                         dimension in print("dimension: \(dimension[.bottom])")
                         return  -dimension[.bottom]
                     })
