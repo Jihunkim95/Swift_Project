@@ -19,7 +19,7 @@ struct StackFrameView: View {
             
 //            myLayout {
 //                Image(systemName: "goforward.10")
-//                Image(systemName: "goforward.15")
+//                Image(syㅎstemName: "goforward.15")
 //                Image(systemName: "goforward.30")
 //            }
 //            HStack{

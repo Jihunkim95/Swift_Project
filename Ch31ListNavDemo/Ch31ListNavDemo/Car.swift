@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//31.4 Car 구조체 추가하기
 struct Car : Codable, Identifiable{
     var id: String
     var name: String

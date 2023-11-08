@@ -90,6 +90,7 @@
 		5CDB0BE52AE0FA47007B8FC2 /* ConcurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDB0BE42AE0FA47007B8FC2 /* ConcurrencyView.swift */; };
 		5CDB0BE72AE1154B007B8FC2 /* ConcurrencyView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDB0BE62AE1154B007B8FC2 /* ConcurrencyView2.swift */; };
 		5CDB0BEB2AE115E4007B8FC2 /* ConcurrencyView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDB0BEA2AE115E4007B8FC2 /* ConcurrencyView3.swift */; };
+		5CDF3F9A2AF4CBE1009040C6 /* PhotosPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF3F992AF4CBE1009040C6 /* PhotosPickerView.swift */; };
 		5CE844DE2AEA5B7500873B14 /* AppStroageSceneStorageView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE844DD2AEA5B7500873B14 /* AppStroageSceneStorageView1.swift */; };
 /* End PBXBuildFile section */
 
@@ -178,6 +179,7 @@
 		5CDB0BE42AE0FA47007B8FC2 /* ConcurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyView.swift; sourceTree = "<group>"; };
 		5CDB0BE62AE1154B007B8FC2 /* ConcurrencyView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyView2.swift; sourceTree = "<group>"; };
 		5CDB0BEA2AE115E4007B8FC2 /* ConcurrencyView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyView3.swift; sourceTree = "<group>"; };
+		5CDF3F992AF4CBE1009040C6 /* PhotosPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickerView.swift; sourceTree = "<group>"; };
 		5CE844DD2AEA5B7500873B14 /* AppStroageSceneStorageView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStroageSceneStorageView1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -287,6 +289,7 @@
 				5CCD8E462AEA42F900C5D049 /* Ch28_AppStroageSceneStorage */,
 				5C9EBF582AEF705500FA84AB /* Ch29_StackAlignmentGuide */,
 				5C9EBF8C2AF0DA7300FA84AB /* Ch30_ListNavigation */,
+				5CDF3F982AF4CB5F009040C6 /* PhotosPicker */,
 				5C595E8B2AD4E0BD00015539 /* Assets.xcassets */,
 				5C595E8D2AD4E0BD00015539 /* Preview Content */,
 			);
@@ -395,6 +398,14 @@
 			path = Ch28_AppStroageSceneStorage;
 			sourceTree = "<group>";
 		};
+		5CDF3F982AF4CB5F009040C6 /* PhotosPicker */ = {
+			isa = PBXGroup;
+			children = (
+				5CDF3F992AF4CBE1009040C6 /* PhotosPickerView.swift */,
+			);
+			path = PhotosPicker;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -493,6 +504,7 @@
 				5C595E8A2AD4E0BD00015539 /* ContentView.swift in Sources */,
 				5C9EBFCB2AF2410F00FA84AB /* NavigationQuizView2.swift in Sources */,
 				5C595E9A2AD5175B00015539 /* DivideOrangeView.swift in Sources */,
+				5CDF3F9A2AF4CBE1009040C6 /* PhotosPickerView.swift in Sources */,
 				5CCD8E4A2AEA435600C5D049 /* SceneStorageView.swift in Sources */,
 				5C52B6202AD5489400DB3DCA /* BasicSwiftUIView.swift in Sources */,
 				5C9EBFC72AF2177800FA84AB /* MutiSecectionView.swift in Sources */,
