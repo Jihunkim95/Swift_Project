@@ -90,6 +90,9 @@
 		5CDB0BE52AE0FA47007B8FC2 /* ConcurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDB0BE42AE0FA47007B8FC2 /* ConcurrencyView.swift */; };
 		5CDB0BE72AE1154B007B8FC2 /* ConcurrencyView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDB0BE62AE1154B007B8FC2 /* ConcurrencyView2.swift */; };
 		5CDB0BEB2AE115E4007B8FC2 /* ConcurrencyView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDB0BEA2AE115E4007B8FC2 /* ConcurrencyView3.swift */; };
+		5CDC5DCA2AFB813D00E71003 /* LazyVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDC5DC92AFB813D00E71003 /* LazyVGridView.swift */; };
+		5CDC5DCC2AFB816800E71003 /* LazyHGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDC5DCB2AFB816800E71003 /* LazyHGridView.swift */; };
+		5CDC5DCE2AFB845B00E71003 /* GridViewEx01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDC5DCD2AFB845B00E71003 /* GridViewEx01.swift */; };
 		5CDF3F9A2AF4CBE1009040C6 /* PhotosPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF3F992AF4CBE1009040C6 /* PhotosPickerView.swift */; };
 		5CE844DE2AEA5B7500873B14 /* AppStroageSceneStorageView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE844DD2AEA5B7500873B14 /* AppStroageSceneStorageView1.swift */; };
 /* End PBXBuildFile section */
@@ -179,6 +182,9 @@
 		5CDB0BE42AE0FA47007B8FC2 /* ConcurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyView.swift; sourceTree = "<group>"; };
 		5CDB0BE62AE1154B007B8FC2 /* ConcurrencyView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyView2.swift; sourceTree = "<group>"; };
 		5CDB0BEA2AE115E4007B8FC2 /* ConcurrencyView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyView3.swift; sourceTree = "<group>"; };
+		5CDC5DC92AFB813D00E71003 /* LazyVGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridView.swift; sourceTree = "<group>"; };
+		5CDC5DCB2AFB816800E71003 /* LazyHGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridView.swift; sourceTree = "<group>"; };
+		5CDC5DCD2AFB845B00E71003 /* GridViewEx01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewEx01.swift; sourceTree = "<group>"; };
 		5CDF3F992AF4CBE1009040C6 /* PhotosPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickerView.swift; sourceTree = "<group>"; };
 		5CE844DD2AEA5B7500873B14 /* AppStroageSceneStorageView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStroageSceneStorageView1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -289,6 +295,7 @@
 				5CCD8E462AEA42F900C5D049 /* Ch28_AppStroageSceneStorage */,
 				5C9EBF582AEF705500FA84AB /* Ch29_StackAlignmentGuide */,
 				5C9EBF8C2AF0DA7300FA84AB /* Ch30_ListNavigation */,
+				5CDC5DC62AFB721700E71003 /* Ch36_LazyVGrid,LazyHGrid */,
 				5CDF3F982AF4CB5F009040C6 /* PhotosPicker */,
 				5C595E8B2AD4E0BD00015539 /* Assets.xcassets */,
 				5C595E8D2AD4E0BD00015539 /* Preview Content */,
@@ -396,6 +403,16 @@
 				5C9EBF542AEE00F300FA84AB /* AppStroageSceneStorageView4.swift */,
 			);
 			path = Ch28_AppStroageSceneStorage;
+			sourceTree = "<group>";
+		};
+		5CDC5DC62AFB721700E71003 /* Ch36_LazyVGrid,LazyHGrid */ = {
+			isa = PBXGroup;
+			children = (
+				5CDC5DC92AFB813D00E71003 /* LazyVGridView.swift */,
+				5CDC5DCB2AFB816800E71003 /* LazyHGridView.swift */,
+				5CDC5DCD2AFB845B00E71003 /* GridViewEx01.swift */,
+			);
+			path = "Ch36_LazyVGrid,LazyHGrid";
 			sourceTree = "<group>";
 		};
 		5CDF3F982AF4CB5F009040C6 /* PhotosPicker */ = {
@@ -514,6 +531,7 @@
 				5C9EBFBD2AF1DDFD00FA84AB /* ListNavigationQuizView1.swift in Sources */,
 				5C38597F2AE22AAD005C74D8 /* BasicSwiftUIListView.swift in Sources */,
 				5CCD8E022AE61E0000C5D049 /* ActerView7.swift in Sources */,
+				5CDC5DCE2AFB845B00E71003 /* GridViewEx01.swift in Sources */,
 				5C7B60BE2ADCD73800CAA5DF /* PublisherSubscriberView3.swift in Sources */,
 				5CCD8E002AE61B5000C5D049 /* ActerView6.swift in Sources */,
 				5C9EBF902AF1137700FA84AB /* ListNavigationView2.swift in Sources */,
@@ -557,8 +575,10 @@
 				5CCD8DF42AE6052B00C5D049 /* ActorListView.swift in Sources */,
 				5C9EBFC52AF1EBE600FA84AB /* ListNavigationQuizView5.swift in Sources */,
 				5CCD8E382AEA03BF00C5D049 /* SecondTabView.swift in Sources */,
+				5CDC5DCA2AFB813D00E71003 /* LazyVGridView.swift in Sources */,
 				5C3859852AE22C02005C74D8 /* PublisherSubscriberListView.swift in Sources */,
 				5C9EBF922AF1193B00FA84AB /* ListNavigationView3.swift in Sources */,
+				5CDC5DCC2AFB816800E71003 /* LazyHGridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

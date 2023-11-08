@@ -7,12 +7,44 @@
 
 import SwiftUI
 
-struct LazyVGrid: View {
+struct LazyVGridView: View {
+    private var colors: [Color] = [.blue, .yellow, .green]
+//    // 적응형 GridItem 설정 : 열너비가 50 미만으로 될 수 없다
+//    private var gridItems = [GridItem(.adaptive(minimum:50))]
+    
+//    // 고정형 GridItem 설정 : 열너비가 100인 단일 그리드
+//    private var gridItems = [GridItem(.fixed(100))]
+    
+    // 고정형과 적응형 조합
+    private var gridItems = [GridItem(.fixed(100)),GridItem(.adaptive(minimum: 100))]
+
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(.vertical){
+            LazyVGrid(columns: gridItems,spacing: 5){
+                ForEach((0...50),id:\.self){ index in
+                    CellContent(index: index, color: colors[index % colors.count])
+                    
+                }
+            }
+            .padding(5)
+        }
+        
     }
 }
-
+// 셀 동작하는 커스텀 뷰를 추가 p.367
+struct CellContent: View {
+    var index: Int
+    var color: Color
+    
+    var body: some View{
+        Text("화이팅 \(index)번 외치고 시작할까요?")
+            .frame(minWidth: 40, minHeight: 40, maxHeight: .infinity)
+            .background(color)
+            .cornerRadius(8)
+            .font(.largeTitle)
+    }
+}
 #Preview {
-    LazyVGrid()
+    LazyVGridView()
 }
