@@ -38,7 +38,7 @@ struct CellContent: View {
     var color: Color
     
     var body: some View{
-        Text("화이팅 \(index)번 외치고 시작할까요?")
+        Text("\(index)")
             .frame(minWidth: 40, minHeight: 40, maxHeight: .infinity)
             .background(color)
             .cornerRadius(8)

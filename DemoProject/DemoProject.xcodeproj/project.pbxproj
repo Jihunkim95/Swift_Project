@@ -93,6 +93,9 @@
 		5CDC5DCA2AFB813D00E71003 /* LazyVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDC5DC92AFB813D00E71003 /* LazyVGridView.swift */; };
 		5CDC5DCC2AFB816800E71003 /* LazyHGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDC5DCB2AFB816800E71003 /* LazyHGridView.swift */; };
 		5CDC5DCE2AFB845B00E71003 /* GridViewEx01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDC5DCD2AFB845B00E71003 /* GridViewEx01.swift */; };
+		5CDC5DD32AFC680400E71003 /* GirdRowDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDC5DD22AFC680400E71003 /* GirdRowDemo.swift */; };
+		5CDC5DD62AFC792600E71003 /* TabViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDC5DD52AFC792600E71003 /* TabViewDemo.swift */; };
+		5CDC5DDA2AFC98AB00E71003 /* ContextMenuDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDC5DD92AFC98AB00E71003 /* ContextMenuDemoView.swift */; };
 		5CDF3F9A2AF4CBE1009040C6 /* PhotosPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF3F992AF4CBE1009040C6 /* PhotosPickerView.swift */; };
 		5CE844DE2AEA5B7500873B14 /* AppStroageSceneStorageView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE844DD2AEA5B7500873B14 /* AppStroageSceneStorageView1.swift */; };
 /* End PBXBuildFile section */
@@ -185,6 +188,9 @@
 		5CDC5DC92AFB813D00E71003 /* LazyVGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridView.swift; sourceTree = "<group>"; };
 		5CDC5DCB2AFB816800E71003 /* LazyHGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridView.swift; sourceTree = "<group>"; };
 		5CDC5DCD2AFB845B00E71003 /* GridViewEx01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewEx01.swift; sourceTree = "<group>"; };
+		5CDC5DD22AFC680400E71003 /* GirdRowDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirdRowDemo.swift; sourceTree = "<group>"; };
+		5CDC5DD52AFC792600E71003 /* TabViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewDemo.swift; sourceTree = "<group>"; };
+		5CDC5DD92AFC98AB00E71003 /* ContextMenuDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuDemoView.swift; sourceTree = "<group>"; };
 		5CDF3F992AF4CBE1009040C6 /* PhotosPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickerView.swift; sourceTree = "<group>"; };
 		5CE844DD2AEA5B7500873B14 /* AppStroageSceneStorageView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStroageSceneStorageView1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -293,9 +299,13 @@
 				5CCD8E322AEA026300C5D049 /* Ch26_Lifecycle */,
 				5CCD8E3D2AEA2F4600C5D049 /* Ch27_ObservableEnvironment */,
 				5CCD8E462AEA42F900C5D049 /* Ch28_AppStroageSceneStorage */,
+				5CDC5DD72AFC806B00E71003 /* Ch39_ContextMenu */,
 				5C9EBF582AEF705500FA84AB /* Ch29_StackAlignmentGuide */,
 				5C9EBF8C2AF0DA7300FA84AB /* Ch30_ListNavigation */,
 				5CDC5DC62AFB721700E71003 /* Ch36_LazyVGrid,LazyHGrid */,
+				5CDC5DD12AFC67B400E71003 /* Ch37_GridAndGridRow */,
+				5CDC5DD42AFC790000E71003 /* Ch38_TabView */,
+				5CDC5DD82AFC986300E71003 /* Ch39_ContextMenu */,
 				5CDF3F982AF4CB5F009040C6 /* PhotosPicker */,
 				5C595E8B2AD4E0BD00015539 /* Assets.xcassets */,
 				5C595E8D2AD4E0BD00015539 /* Preview Content */,
@@ -415,6 +425,38 @@
 			path = "Ch36_LazyVGrid,LazyHGrid";
 			sourceTree = "<group>";
 		};
+		5CDC5DD12AFC67B400E71003 /* Ch37_GridAndGridRow */ = {
+			isa = PBXGroup;
+			children = (
+				5CDC5DD22AFC680400E71003 /* GirdRowDemo.swift */,
+			);
+			path = Ch37_GridAndGridRow;
+			sourceTree = "<group>";
+		};
+		5CDC5DD42AFC790000E71003 /* Ch38_TabView */ = {
+			isa = PBXGroup;
+			children = (
+				5CDC5DD52AFC792600E71003 /* TabViewDemo.swift */,
+			);
+			path = Ch38_TabView;
+			sourceTree = "<group>";
+		};
+		5CDC5DD72AFC806B00E71003 /* Ch39_ContextMenu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ch39_ContextMenu;
+			sourceTree = "<group>";
+		};
+		5CDC5DD82AFC986300E71003 /* Ch39_ContextMenu */ = {
+			isa = PBXGroup;
+			children = (
+				5CDC5DD92AFC98AB00E71003 /* ContextMenuDemoView.swift */,
+			);
+			name = Ch39_ContextMenu;
+			path = Ch38_TabView/Ch39_ContextMenu;
+			sourceTree = "<group>";
+		};
 		5CDF3F982AF4CB5F009040C6 /* PhotosPicker */ = {
 			isa = PBXGroup;
 			children = (
@@ -498,6 +540,7 @@
 				5C3859892AE23B7A005C74D8 /* ConcurrencyView4.swift in Sources */,
 				5C9EBF7B2AEF948500FA84AB /* StackAlignmentGuideListView.swift in Sources */,
 				5C3859832AE22BDE005C74D8 /* StackFrameListView.swift in Sources */,
+				5CDC5DD32AFC680400E71003 /* GirdRowDemo.swift in Sources */,
 				5CCD8E342AEA02AF00C5D049 /* LifecycleDemoView.swift in Sources */,
 				5C9EBFBF2AF1E24200FA84AB /* ListNavigationQuizView2.swift in Sources */,
 				5CCD8DF82AE60E3300C5D049 /* ActerView2.swift in Sources */,
@@ -565,6 +608,7 @@
 				5CDB0BE72AE1154B007B8FC2 /* ConcurrencyView2.swift in Sources */,
 				5CCD8E4F2AEA519900C5D049 /* AppStoregeView.swift in Sources */,
 				5C9EBF8B2AEFE1FC00FA84AB /* Calc.swift in Sources */,
+				5CDC5DDA2AFC98AB00E71003 /* ContextMenuDemoView.swift in Sources */,
 				5CCD8E452AEA42DC00C5D049 /* LifecycleListView.swift in Sources */,
 				5C9EBF852AEFAC2300FA84AB /* StackAlignmentGuideView2.swift in Sources */,
 				5C7B60BA2ADCD6FD00CAA5DF /* PublisherSubscriberView.swift in Sources */,
@@ -575,6 +619,7 @@
 				5CCD8DF42AE6052B00C5D049 /* ActorListView.swift in Sources */,
 				5C9EBFC52AF1EBE600FA84AB /* ListNavigationQuizView5.swift in Sources */,
 				5CCD8E382AEA03BF00C5D049 /* SecondTabView.swift in Sources */,
+				5CDC5DD62AFC792600E71003 /* TabViewDemo.swift in Sources */,
 				5CDC5DCA2AFB813D00E71003 /* LazyVGridView.swift in Sources */,
 				5C3859852AE22C02005C74D8 /* PublisherSubscriberListView.swift in Sources */,
 				5C9EBF922AF1193B00FA84AB /* ListNavigationView3.swift in Sources */,
