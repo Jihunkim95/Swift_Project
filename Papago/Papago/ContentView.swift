@@ -71,13 +71,16 @@ struct ContentView: View {
                 
                 Button(action: {
                     let temp:String = source
-                    //
-//                    language[0] = language[1]
-//                    language[1] = temp
                     
                     source = target
                     target = temp
                     print(language.keys)
+                    
+                    let sourceData:String = language[source] ?? "ko"
+                    let targetData:String = language[target] ?? "en"
+                     
+                    translateData.translateText(inputText,sourceData,targetData)
+                    inputText = translateData.translatedText ?? ""
                 }) {
                     if colorScheme == .dark{
                         Image(systemName:"fibrechannel")
@@ -139,6 +142,16 @@ struct ContentView: View {
             Spacer()
             
         }
+        
+//        NavigationView {
+//            Form {
+//                TextField("Enter text", text: $source)
+//                    .textFieldStyle(RoundedBorderTextFieldStyle())
+//                    .padding()
+//                    .animation(.easeInOut) // 애니메이션 추가
+//            }
+//            .navigationTitle("My App")
+//        }
     }
 
     

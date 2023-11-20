@@ -1,14 +1,14 @@
 //
-//  papagiApp.swift
-//  papagi
+//  FileExampleDemoApp.swift
+//  FileExampleDemo
 //
-//  Created by 김지훈 on 2023/11/14.
+//  Created by 김지훈 on 2023/11/20.
 //
 
 import SwiftUI
 
 @main
-struct papagiApp: App {
+struct FileExampleDemoApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
