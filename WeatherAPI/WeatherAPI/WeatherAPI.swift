@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct WeatherData: Decodable {
+struct WeatherData: Decodable, Hashable {
     let coord: Coord //좌표(위도,적도)
     let weather: [Weather]
     let base: String
@@ -22,21 +22,22 @@ struct WeatherData: Decodable {
     let id: Int
     let name: String
     let cod: Int
+    
 }
 
-struct Coord: Decodable {
+struct Coord: Decodable,Hashable {
     let lon: Double
     let lat: Double
 }
 
-struct Weather: Decodable {
+struct Weather: Decodable,Hashable {
     let id: Int // 기상조건 ID
     let main: String // 날씨 매개변수 그룹(비, 눈, 구름)
-    let description: String
-    let icon: String
+    let description: String?
+    let icon: String?
 }
 
-struct Main: Codable {
+struct Main: Decodable, Hashable {
     let temp: Double
     let feelsLike: Double
     let tempMin: Double
@@ -49,16 +50,16 @@ struct Main: Codable {
     }
 }
 
-struct Wind: Codable {
+struct Wind: Decodable,Hashable {
     let speed: Double
     let deg: Int
 }
 
-struct Clouds: Codable {
+struct Clouds: Decodable, Hashable {
     let all: Int
 }
 
-struct Sys: Codable {
+struct Sys: Decodable, Hashable {
     let type: Int
     let id: Int
     let country: String
@@ -113,7 +114,11 @@ class WeatherAPI: ObservableObject {
             //JSON 데이터 Decoder
             do {
                 let json = try JSONDecoder().decode(WeatherData.self, from: data)
-                print(json)
+                DispatchQueue.main.async {
+                    self.posts = [json]
+                    print(self.posts)
+                }
+  
             } catch let error {
                 print(error)
                 print(error.localizedDescription)
