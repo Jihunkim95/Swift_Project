@@ -67,13 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				5C9EBFA12AF1262900FA84AB /* Ch31ListNavDemoApp.swift */,
-				5C9EBFA32AF1262900FA84AB /* ContentView.swift */,
-				5C9EBFD62AF3308300FA84AB /* CarDetail.swift */,
-				5C9EBFB42AF12A3C00FA84AB /* carData.json */,
-				5C9EBFB82AF12AF900FA84AB /* Car.swift */,
-				5C9EBFD22AF3249400FA84AB /* CarData.swift */,
-				5C9EBFD42AF3278F00FA84AB /* CarStore.swift */,
-				5C9EBFD82AF33AEF00FA84AB /* AddNewCar.swift */,
+				5CC873EF2B22C9AC00D6497D /* View */,
+				5CC873EE2B22C98600D6497D /* Model */,
 				5C9EBFA52AF1262A00FA84AB /* Assets.xcassets */,
 				5C9EBFB62AF12ABB00FA84AB /* CarAssets.xcassets */,
 				5C9EBFA72AF1262A00FA84AB /* Ch31ListNavDemo.entitlements */,
@@ -88,6 +83,27 @@
 				5C9EBFA92AF1262A00FA84AB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5CC873EE2B22C98600D6497D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C9EBFB82AF12AF900FA84AB /* Car.swift */,
+				5C9EBFD22AF3249400FA84AB /* CarData.swift */,
+				5C9EBFD42AF3278F00FA84AB /* CarStore.swift */,
+				5C9EBFB42AF12A3C00FA84AB /* carData.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CC873EF2B22C9AC00D6497D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C9EBFA32AF1262900FA84AB /* ContentView.swift */,
+				5C9EBFD62AF3308300FA84AB /* CarDetail.swift */,
+				5C9EBFD82AF33AEF00FA84AB /* AddNewCar.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,7 +328,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
@@ -350,7 +366,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
