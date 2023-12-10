@@ -22,6 +22,6 @@ struct ObservableEnvironmentSecondView: View {
     }
 }
 
-#Preview {
-    ObservableEnvironmentSecondView().environmentObject(TimerData())
-}
+//#Preview {
+//    ObservableEnvironmentSecondView().environmentObject(TimerData())
+//}

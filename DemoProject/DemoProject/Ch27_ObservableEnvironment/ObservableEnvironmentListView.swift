@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ObservableEnvironmentListView: View {
+    
+    
     var body: some View {
         NavigationView{
             VStack{

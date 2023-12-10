@@ -27,7 +27,7 @@ class TimerData: ObservableObject {
 
 struct ObservableEnvironmentView: View {
     
-    @EnvironmentObject var timerData: TimerData
+    @StateObject var timerData: TimerData = TimerData()
     
     var body: some View {
         NavigationView{
@@ -42,17 +42,18 @@ struct ObservableEnvironmentView: View {
                 }
                 
                 NavigationLink(destination: ObservableEnvironmentSecondView()){
-                    Text("Next Screen")
+                    Text("Next Screen") 
                 }
                 .padding()
             }
-        }
+        }.environmentObject(timerData)
     }
     func resetCount() {
         timerData.resetCount()
     }
 }
 
-#Preview {
-    ObservableEnvironmentView().environmentObject(TimerData())
-}
+//
+//#Preview {
+//    ObservableEnvironmentView().environmentObject(TimerData())
+//}
