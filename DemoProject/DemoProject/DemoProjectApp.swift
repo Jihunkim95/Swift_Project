@@ -23,7 +23,7 @@ struct DemoProjectApp: App {
     
     var body: some Scene {
         WindowGroup {
-            GirdRowDemo()
+            ContentView()
         }.onChange(of: scenePhase) { phase in
             switch phase {
             case .active:
